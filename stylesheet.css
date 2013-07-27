@@ -83,8 +83,9 @@ color:white;
 font-size:14px;
 }
 .chatTD{
-padding-left:9em;
-background-color:rgba(72, 81, 142, 0.84);
+padding-left:6.5em;
+background-color:rgba(72, 81, 142, 0.9);
+z-index:100;
 }
 #ScrollChat{
 background-color:rgba(0, 0, 0, 0.4);
@@ -95,6 +96,7 @@ font-size:14px;
 font-family:Georgia, Garamond;
 overflow:hidden;
 position:absolute;
+z-index:-100;
 }
 #ScrollChat p{
 margin-left:2%;
