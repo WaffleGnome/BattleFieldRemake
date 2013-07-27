@@ -2,7 +2,7 @@ BattleFieldRemake
 =================
 This site was made as an example for the codecademy group [Web Development Tutorials](http://www.codecademy.com/groups/html-projects)'s [ Menu Design Project](http://www.codecademy.com/groups/html-projects/discussions/51e3305e9c4e9d6b630069a8)
 
-Heres my example so far. For best quality and full effects use chrome, Firefox is ok. 
+For best quality and full effects use chrome, Firefox is ok but lacks some effects. 
 
 --------------------------------------------------------------------------
 TODO:
