@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>BF3R</title>
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+    
+    </head>
+    <body>     
+        <a href="main.html"><img src="images/start.png" style="height:40px;"></a>
+    </body>
+</html>
+
+
+<style>
+html{
+background-image:url('images/bf3 intro.jpg');
+background-repeat:no-repeat;
+/*background-size*/
+background-size:auto;
+-webkit-background-size:100%;
+   -moz-background-size:100%;
+     -o-background-size:100%;
+        background-size:100%;
+}
+a{
+text-decoration:none;
+}
+img{
+position:absolute;
+margin-top:43%;
+margin-left:41%;
+height:6%;
+}
+
+/* iPads (landscape) ---------------------------------------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+html{
+    background-image:url('images/bf3 intro.jpg');
+    background-repeat:no-repeat;
+    background-size:127%;
+}
+img{
+    position:absolute;
+    margin-top:90%;
+    margin-left:40%;
+    height: 6%;
+}
+    }
+    
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1680px) {
+/* Styles */
+    html{
+        background-size:110%;
+    }
+    img{
+        position:absolute;
+        margin-top:50%;
+        margin-left:45%;
+        height: 500%;
+}
+    }
+
+</style>
+
+<script>
+  
+  function pulsate(element) {
+    $(element || this).animate({ opacity: 0 }, 1000, function() {
+        $(this).animate({ opacity: 1 }, 1000,  pulsate);
+    });
+}
+pulsate('img');
+   
+</script>

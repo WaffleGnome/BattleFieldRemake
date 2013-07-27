@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BF3R</title>
+         
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        
+        <link type="text/css" rel="stylesheet" href="load.css"/>
+        
+         <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+           <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+           <script type="text/javascript" src="jquery.timers.js"></script>
+            <script type="text/javascript" src="jquery.autoScroller.js"></script>
+  
+         <audio src="sound/Click-sound.mp3" class = "Sound"></audio>
+        
+          <audio loop="loop" autoplay="autoplay"> 
+          <source src="sound/Bf-Theme.mp3" />  
+         </audio>
+    
+    </head>
+    
+    <body>        
+            <div id="preloader">
+            <div id="status"><img src="images/status.gif"></div>
+            </div>
+        
+        <header>
+            <img src = 'images/logo.png' id = "logo"/>
+        </header>
+         
+         <div class = "chatbox">
+             <table border="0">
+                 <tr>
+                     <td class = "chatTD">INVITES</td>
+                     <td class = "chatTD">FRIENDS<b style = "color:#05cff4" >2</b></td>
+                 </tr>
+             </table>            
+             <div id = "ScrollChat">
+              <p>DICE is proud to have delivered online vehicle warfare since 2002.
+              But what’s your favorite vehicle in the history of Battlefield?
+              Vote below and let us know your thoughts in the comments. 
+              Vehicles are part of what makes combat on the Battlefield unique.
+              What's your favorite vehicle type?
+              
+              Get the latest Battlefield 4 screenshots from the “Angry Sea” single player demo 
+              and “Siege of Shanghai” multiplayer map at E3 2013 here. Click for full size.
+              They’re great for your desktop!
+              </p>
+            </div>           
+         </div>
+         
+          
+        <div class = "battle">
+            <ul>
+             <li style="background-color:rgba(72, 81, 142, 0.84); color:white"> BATTLE FEED</li> 
+             <li style="background-color:rgba(39, 39, 39, 0.84);font-size:15px; color:#e39505"> ACCOUNT NOT ACTIVATED</li>
+            </ul>
+        </div>   
+        
+        <ul class = "menu">
+            <div class = "TILT1">              
+              <li class = "large"><a href="#">CAMPAIGN</a>
+              </li>              
+              <li class = "large"><a href="multi.html" title="MULTIPLAYER">MULTIPLAYER</a></li>
+            </div>
+            
+            <div class = "TILT2">
+              <li class = "large"><a href="co-op.html" title="CO-OP">CO-OP</a></li> 
+              <li class = "large" id = "Premium"><a href="#">PREMIUM</a></li>
+            </div>
+            
+            <div class = "TILT3"> 
+              <li class = "small" id = "soldier"><a href="#">MY SOLDIER</a></li>
+              <li class = "small">OPTIONS</li>
+            </div>
+            
+            <div class = "TILT4"> 
+              <li class = "small"><a href="#">STORE</a></li>
+              <li class = "small"><a href="#">EXTRAS</a></li>
+            </div>                  
+        </ul>  
+             
+           <div id = "Abutton">
+               <table border="0">
+                 <tr>
+                     <td><img src="images/a.png" style="height:40px"></td>
+                     <td>SELECT</td>
+                     <td><img src="images/ButtonClick.gif" style="height:60px"></td>
+                     <td>SHOW BATTLE FEED</td>
+                 </tr>
+             </table> 
+               
+           </div>   
+           
+                <script type="text/javascript">
+                $(window).load(function() {
+                $("#status").fadeOut(1000); 
+                $("#preloader").delay(1000).fadeOut("slow"); 
+            })
+            </script>                       
+    </body>
+</html>
+
+<script>
+    
+    $(window).load(function(){autoScroller('ScrollChat', 3)});
+        //changes white font color on hover
+    $(".menu .large, .small").hover(function() {
+        $(this).css( "color", "black" ); 
+        $(this).css("background-color", "white");
+     
+     $(".menu .large, .small").mouseleave(function() {
+           $(this).css( "color", "white" );
+           $(this).css( "background", "rgba(0, 0, 0, 0)" );
+  });
+   });
+    
+    //changes premium font color on hover
+    $("#Premium").hover(function() {
+       $(this).css( "color", "black" );
+        $('html').css( "background-image", "url(images/bfpreWide.jpg)" );
+        
+        $("#Premium").mouseleave(function() {
+           $(this).css( "color", "#ff6200" );
+            $('html').css( "background-image", "url(images/tanks.jpg)" );
+  });
+   });
+  
+  // tilt screen on hover
+  $(".TILT1").hover(function(){
+        $(' #logo, .menu').css("-webkit-transform", "skew(-6deg)"); }); 
+  $(".TILT2").hover(function(){
+        $('#logo, .menu').css("-webkit-transform", "skew(-7deg)"); }); 
+  $(".TILT3").hover(function(){
+        $(' #logo, .menu').css("-webkit-transform", "skew(-8deg)"); }); 
+  $(".TILT4").hover(function(){
+        $(' #logo, .menu').css("-webkit-transform", "skew(-9deg)"); }); 
+     
+   
+   //play sound on button hover
+  $(function(){
+    $('.menu li').hover(
+	  function() {$(".Sound")[0].play();},
+      function() {$(".Sound")[0].pause();}
+	)
+});
+
+</script>

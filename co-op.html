@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>BF3R</title>  
+        
+         <link type="text/css" rel="stylesheet" href="multi.css"/>
+         <link type="text/css" rel="stylesheet" href="load.css"/>
+         
+         <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+         <audio src="sound/Click-sound.mp3" class = "Sound"></audio>
+        
+          <audio loop="loop" autoplay="autoplay"> 
+          <source src="sound/Bf-Theme.mp3" />  
+         </audio>
+    
+    </head>
+    <body>
+        
+        <div id="preloader">
+            <div id="status"><img src="images/status.gif"></div>
+            </div>
+        
+        <header>
+            <ul>
+                <li style="font-size:12px">MAIN/</li>
+                <li style="font-size:30px">CO-OP</li>
+            </ul>
+            
+        </header>
+                
+        
+        <ul class = "menu">
+            <div class = "TILT1">              
+              <li class = "large"><a href="#">PLAY WITH FRIEND</a></li>                          
+            </div>
+            
+            <div class = "TILT2">
+              <li class = "large"><a href="#">PUBLIC GAME</a></li>     
+            </div>
+            
+            <div class = "TILT3"> 
+              <li class = "large" id = "soldier"><a href="#">LEADERBOARDS</a></li>
+            </div>
+                          
+        </ul>  
+        
+        <div class = "info">
+             <h1 style="background-color:#03859d">CO-OP CAMPAIGN</h1>        
+             <div id = "infoBox">
+                  <p>The mode supports two players online (no split screen play), spans six missions, and is a standalone section, separate from the single player game.
+                  The missions revolve around minor operations by marines of Snake 6-6 as they encounter the PLR.
+                  Missions include ground, air vehicle, as well as tight urban arid warfare, causing players to work together to complete objectives.
+                  It is through this that players will eventually unlocked weapons for multiplayer. 
+
+                  A US Marine with an M16
+                  Co-op gameplay first debuted at EA's Gamescom 2011 Conference.
+                  It featured DICE general manager Karl Magnus-Troedsson and EA Games executive vice president Patrick Soderlund demoing the mission Exfiltration. 
+                  The gameplay showcased the the new thermal weapons, smarter A.I., teammate reviving, and spot mechanic from Bad Company 2.
+                  David Spinnier, lead co-op designer stated that the levels have randomized elements that change each time a co-op level is played, making it a different experience every time.
+                  He also said that the missions will be shorter, to aid replayability.
+                </p>
+            </div>           
+         </div>
+        
+        <div id = "Abutton">
+               <table border="0">
+                 <tr>
+                     <td><img src="images/a.png" style="height:40px"></td>
+                     <td style="color:white">SELECT</td>
+                     <td><img src="images/b.png" style="height:40px"></td>
+                     <td style="color:white"><a href="main.html">BACK</a></td>
+                  </tr>
+                </table>    
+             </div>   
+              <script type="text/javascript">
+                $(window).load(function() {
+                $("#status").fadeOut(0);
+                $("#preloader").delay(0).fadeOut("slow"); 
+            })
+            </script> 
+                 
+     </body>
+    </html>
+
+<style>
+
+html{
+    background-image:url('images/co-op.jpg');
+}
+#Abutton{
+    margin-top: 30%;
+    -moz-margin-top: 40%;
+    margin-left: 5%;
+    position:absolute;
+    font-size:20px;
+    color:white;
+    text-shadow: 2px 2px rgba(199, 244, 252, 0.53);
+}
+.menu li:hover{
+    transition: top 0.4s ease;
+    height: 5%;
+    width:25%;
+    font-weight:bold;
+    list-style-type: none;
+    position:relative;
+    left:-20px;
+    top:-20px;
+    z-index:+1;
+}
+.info{    
+    height: 45%;
+    width: 50%;
+    margin-left:35%;
+    margin-top:-10%;
+    position:absolute;
+    color:white;
+    font-size:14px;
+}
+#infoBox{
+    padding-left:20px;
+    background-color:rgba(0, 0, 0, 0.56);
+    height:80%;
+    width:100%;
+    border:1px;
+    font-size:14px;
+    font-family: Georgia, Garamond;
+    overflow:auto;
+    position:absolute;
+}
+
+#preloader {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#000; 
+	z-index:99; 
+}
+
+#status {
+	position:fixed;
+	left:80%; 
+	top:90%; 
+}
+#status img {
+	width:70%;
+	height:5%;
+	
+}
+/* iPads (landscape) ---------------------------------------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    
+    .menu li:hover{
+        list-style-type: none;
+        position:relative;
+        left: -10;
+        top: +0;
+        z-index: +0;
+        transition:top 0s, z-index 0s;
+    }
+    .menu li:hover{
+        height: 6%;
+        width:36%;
+        font-weight:bold;
+    }
+    .info{
+        margin-top:-25%;
+    }
+    #Abutton{
+        margin-top:48%;
+        }
+    #infobox{
+        margin-left:15%;
+    }
+    h1{
+        margin-left:17%;
+    }
+    #status {
+	    position:fixed;
+	    left:77%; 
+	    top:90%; 
+}
+    #status img {
+    	width:200px;
+    	height:50px;
+}
+    }
+
+
+</style>
+
+<script>
+    
+        //changes white font color on hover
+    $(".menu li").hover(function() {
+        $(this).css( "color", "black" ); 
+        $(this).css("background-color", "white");
+        //$(this).css( "background", "white" ); 
+     
+     $(".menu li").mouseleave(function() {
+           $(this).css( "color", "white" );
+           $(this).css( "background", "rgba(0, 0, 0, 0)" );
+  });
+   });
+  
+  // tilt screen on hover
+  $(".TILT1").hover(function(){
+        $('header, .menu').css("-webkit-transform", "skew(-6deg)"); 
+  $(".TILT2").hover(function(){
+        $(' header, .menu').css("-webkit-transform", "skew(-7deg)");
+  $(".TILT3").hover(function(){
+        $(' header, .menu').css("-webkit-transform", "skew(-8deg)");
+  $(".TILT4").hover(function(){
+        $(' header, .menu').css("-webkit-transform", "skew(-9deg)");
+     }); 
+    }); 
+  });    
+}); 
+   
+   //play sound on button hover
+  $(function(){
+    $('.menu li').hover(
+	  function() {$(".Sound")[0].play();},
+      function() {$(".Sound")[0].pause();}
+	)
+});
+
+</script>
