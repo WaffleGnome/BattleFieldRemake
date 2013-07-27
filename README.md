@@ -25,10 +25,10 @@ ISSUES:
 If you have issues hearing the sounds here on [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) of the site you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
 
 -------------------------------------------------------------------------- 
-
-For the Auto scrolling news bar i used [AutoScroller](http://www.yeesiang.com/jquery.autoScroller/).<br>
-The hover clicking sound came from [Sound Bible](http://soundbible.com/). <br>
-The loading screen and buttons were made using [Inkscape](http://inkscape.org/) and [Gimp](http://www.gimp.org/)
+TOOLS:
+- For the Auto scrolling news bar i used [AutoScroller](http://www.yeesiang.com/jquery.autoScroller/).
+- The hover clicking sound came from [Sound Bible](http://soundbible.com/). 
+- The loading screen and buttons were made using [Inkscape](http://inkscape.org/) and [Gimp](http://www.gimp.org/)
 
 
 This site was made for educational purposes only.
