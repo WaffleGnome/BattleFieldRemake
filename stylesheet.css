@@ -185,10 +185,10 @@ margin-top:25%;
 and (min-width : 1680px){
 /* Styles */
 html{
-        background-size:100%;
+background-size:100%;
 }
 #Abutton{
-position:relative;
+position:absolute;
 margin-top:14.5%;
 }
 .menu li:hover{
