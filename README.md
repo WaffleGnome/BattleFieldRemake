@@ -30,5 +30,8 @@ TOOLS:
 - The hover clicking sound came from [Sound Bible](http://soundbible.com/). 
 - The loading screen and buttons were made using [Inkscape](http://inkscape.org/) and [Gimp](http://www.gimp.org/)
 
+If you would like to learn more about using Inkscape check out [Vector Graphics using Inkscape](http://speckyboy.com/2009/04/28/35-tutorials-to-create-amazing-vector-graphics-using-inkscape/).<br>
+Or check out [GIMP Tutorials and Resources](http://www.noupe.com/how-tos/30-exceptional-gimp-tutorials-and-resources.html).
+
 
 This site was made for educational purposes only.
