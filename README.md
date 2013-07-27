@@ -4,7 +4,7 @@ This site was made as an example for the codecademy group [Web Development Tutor
 
 For best quality and full effects use chrome, Firefox is ok but lacks some effects. 
 
-To view the site just click on:
+To view the site just click on:<br>
 [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) or you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
 
 --------------------------------------------------------------------------
@@ -13,19 +13,22 @@ TODO:
 - Tidy up my code 
 - Organize my folders
 - Fix the ipad version
+- Add a glitchy page transition effect
 - Adding more clickable pages( maybe even a playable mission? )
 
 ---------------------------------------------------------------------------
 ISSUES:
 - The safari version of the site has a hover/highlighting issue.
 - Sometimes the sound in github doesnt work so you might not hear the background music or clicking sounds.
+- sometimes hovering acts twitchy
 
 If you have issues hearing the sounds here on [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) of the site you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
 
 -------------------------------------------------------------------------- 
 
-For the Auto scrolling news bar i used [AutoScroller](http://www.yeesiang.com/jquery.autoScroller/).
-The hover clicking sound came from [Sound Bible](http://soundbible.com/).
+For the Auto scrolling news bar i used [AutoScroller](http://www.yeesiang.com/jquery.autoScroller/).<br>
+The hover clicking sound came from [Sound Bible](http://soundbible.com/). <br>
+The loading screen and buttons were made using [Inkscape](http://inkscape.org/) and [Gimp](http://www.gimp.org/)
 
 
 This site was made for educational purposes only.
