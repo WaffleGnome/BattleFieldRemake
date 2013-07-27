@@ -10,7 +10,7 @@ I still need to work on some bugs in safari , tidy up my code and i plan on addi
 
 Sometimes the sound in github doesnt work so you might not hear the background music or clicking sounds.
 
-If you have issues hearing the sounds here on the github version of the site you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
+If you have issues hearing the sounds here on [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) of the site you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
 
 -------------------------------------------------------------------------- 
 
