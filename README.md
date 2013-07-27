@@ -8,5 +8,5 @@ This site is for educational purposes only.
 
 -------------------------------------------------------------------------- 
 
-For the Auto scrolling news bar i used [AutoScroller](http://archive.plugins.jquery.com/project/autoScroller).
+For the Auto scrolling news bar i used [AutoScroller](http://www.yeesiang.com/jquery.autoScroller/).
 The hover clicking sound came from [Sound Bible](http://soundbible.com/).
