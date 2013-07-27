@@ -97,7 +97,6 @@ font-family:Georgia, Garamond;
 overflow:hidden;
 position:absolute;
 z-index:-100;
-padding-bottom:30px;
 }
 #ScrollChat p{
 margin-left:2%;
