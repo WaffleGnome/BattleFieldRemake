@@ -19,8 +19,8 @@ TODO:
 ---------------------------------------------------------------------------
 ISSUES:
 - The safari version of the site has a hover/highlighting issue.
-- Sometimes the sound in github doesnt work so you might not hear the background music or clicking sounds.
-- sometimes hovering acts twitchy
+- In github the sound tends to act up or just doesnt work.
+- Sometimes hovering acts a little twitchy.
 
 If you have issues hearing the sounds here on [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) of the site you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
 
