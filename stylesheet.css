@@ -193,6 +193,12 @@ margin-top:15%;
 }
 .menu li:hover{
 position:relative;
-left:-40px;
-top:-15px;
+left:-10;
+top:+0;
+z-index:+0;
+/*transition*/
+-webkit-transition:top 0s, z-index 0s;
+   -moz-transition:top 0s, z-index 0s;
+     -o-transition:top 0s, z-index 0s;
+        transition:top 0s, z-index 0s;
 }
