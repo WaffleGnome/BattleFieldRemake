@@ -4,6 +4,9 @@ This site was made as an example for the codecademy group [Web Development Tutor
 
 For best quality and full effects use chrome, Firefox is ok but lacks some effects. 
 
+To view the site just click on:
+[THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) or you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
+
 --------------------------------------------------------------------------
 TODO:
 - work on some bugs in safari 
