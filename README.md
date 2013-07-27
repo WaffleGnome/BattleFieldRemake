@@ -10,7 +10,7 @@ To view the site just click on:<br>
 --------------------------------------------------------------------------
 TODO:
 - work on some bugs in safari 
-- Tidy up my code 
+- Tidy up [my code](https://github.com/WaffleGnome/BattleFieldRemake)
 - Organize my folders
 - Fix the ipad version
 - Add a glitchy page transition effect
