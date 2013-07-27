@@ -5,11 +5,11 @@ This site was made as an [challenge](http://www.codecademy.com/groups/html-proje
 For best quality and full effects use chrome, Firefox is ok but lacks some effects. 
 
 To view the site just click on:<br>
-[THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) or you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
+[THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) or  [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html) of the site.
 
 --------------------------------------------------------------------------
 TODO:
-- work on some bugs in safari 
+- Fix some bugs in safari 
 - Tidy up [my code](https://github.com/WaffleGnome/BattleFieldRemake)
 - Organize my folders
 - Fix the ipad version
@@ -18,7 +18,7 @@ TODO:
 
 ---------------------------------------------------------------------------
 ISSUES:
-- The safari version of the site has a hover/highlighting issue.
+- The safari version of the site has a hover/highlighting problem.
 - In github the sound tends to act up or just doesnt work.
 - Sometimes hovering acts a little twitchy.
 
