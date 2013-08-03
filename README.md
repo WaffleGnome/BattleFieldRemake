@@ -26,7 +26,6 @@ If you have issues hearing the sounds here on [THE GITHUB VERSION](https://rawgi
 
 -------------------------------------------------------------------------- 
 TOOLS:
-- For the Auto scrolling news bar i used [AutoScroller](http://www.yeesiang.com/jquery.autoScroller/).
 - The hover clicking sound came from [Sound Bible](http://soundbible.com/). 
 - The loading screen and buttons were made using [Inkscape](http://inkscape.org/) and [Gimp](http://www.gimp.org/)
 
