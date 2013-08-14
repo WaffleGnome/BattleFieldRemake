@@ -2,13 +2,14 @@ BattleFieldRemake
 =================
 The following site was made as an [challenge](http://www.codecademy.com/groups/html-projects/discussions/51e3305e9c4e9d6b630069a8) example for the codecademy group [Web Development Tutorials](http://www.codecademy.com/groups/html-projects) 
 
-[MY CODE!!](https://github.com/WaffleGnome/BattleFieldRemake)
+
 
 For best quality and full effects use chrome, Firefox is ok but lacks some effects. Safari has a few issues <br>
 
 To view the site just click on:<br>
 [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) or  [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html) of the site.
-
+To view the sites code just click on:<br>
+[MY CODE!!](https://github.com/WaffleGnome/BattleFieldRemake)
 --------------------------------------------------------------------------
 TODO:
 - Fix some bugs in safari 
