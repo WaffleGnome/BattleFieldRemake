@@ -4,7 +4,7 @@ The following site was made as an [challenge](http://www.codecademy.com/groups/h
 
 [MY CODE!!](https://github.com/WaffleGnome/BattleFieldRemake)
 
-For best quality and full effects use chrome, Firefox is ok but lacks some effects. <br>
+For best quality and full effects use chrome, Firefox is ok but lacks some effects. Safari has a few issues <br>
 
 To view the site just click on:<br>
 [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) or  [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html) of the site.
