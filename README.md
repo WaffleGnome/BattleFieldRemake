@@ -15,8 +15,9 @@ TODO:
 - Tidy up [my code](https://github.com/WaffleGnome/BattleFieldRemake)
 - Organize my folders
 - Fix the ipad version
+- fix some hovering issues
 - Add a glitchy page transition effect
-- Adding more clickable pages( maybe even a playable mission? )
+- Adding more clickable pages( maybe even a playable mission?)
 
 ---------------------------------------------------------------------------
 ISSUES:
