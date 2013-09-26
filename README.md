@@ -22,12 +22,14 @@ TODO:
 - fix some hovering issues
 - Add a glitchy page transition effect
 - Adding more clickable pages( maybe even a playable mission?)
+- replace marquee
 
 ---------------------------------------------------------------------------
 ISSUES:
 - The safari version of the site has a hover/highlighting problem.
 - In github the sound tends to act up or just doesnt work.
 - Sometimes hovering acts a little twitchy.
+- marquee seems to no longer be supported in html5 for the news scroller no longer works
 
 If you have issues hearing the sounds here on [THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/BattleFieldRemake/master/intro.html) of the site you can visit [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/bf3REMAKE/intro.html).
 
