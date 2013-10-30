@@ -23,6 +23,7 @@ TODO:
 - Add a glitchy page transition effect
 - Adding more clickable pages( maybe even a playable mission?)
 - replace marquee
+- fix some position issues
 
 ---------------------------------------------------------------------------
 ISSUES:
